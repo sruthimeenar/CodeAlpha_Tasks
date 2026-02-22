@@ -11,20 +11,20 @@ const songs = [
     {
         title: "Yumabaibesa",
         artist: "Sai Abhyankkar, Sem.III",
-        src: "media/zYumabaibesa.m4a",
-        img: "media/thumbnail.jpg"
+        src: "zYumabaibesa.m4a",
+        img: "thumbnail.jpg"
     },
     {
         title: "Trouble",
         artist: "Frank Ocean",
-        src: "media/zTrouble.m4a",
-        img: "media/thumbnail2.jpg"
+        src: "zTrouble.m4a",
+        img: "thumbnail2.jpg"
     },
     {
         title: "Not You Too",
         artist: "Drake ft. Chris Brown",
-        src: "media/zNot You Too - Drake ft. Chris Brown.m4a",
-        img: "media/thumbnail3.jpg"
+        src: "zNot You Too - Drake ft. Chris Brown.m4a",
+        img: "thumbnail3.jpg"
     }
 ];
 
@@ -126,4 +126,5 @@ volumeSlider.addEventListener("input", () => {
     let value = volume * 100;
     volumeSlider.style.background =
         `linear-gradient(to right, #efebce ${value}%, #a3a380 ${value}%)`;
+
 });
